@@ -1,0 +1,188 @@
+
+// .select-jobs
+// {
+//     position: relative;
+   
+//     // padding: var(--padding);
+//     word-spacing: 50px;
+// }
+
+.text
+{
+    position: relative;
+    left: 2em;
+}
+
+.bg-select
+{
+    width: 150px; 
+}
+
+.fleche
+{
+    width: 28px;
+    height: 15px;
+    position: absolute;
+    top: 15px;
+    right: 61em;
+    background-image: url("../icone-logo/fleche.png");
+    
+}
+
+/* fin select */
+
+.formulaire
+{
+    padding: 0em 5.5em;
+    display: flex;
+    gap: 2em 2em;
+    align-items: center;
+
+    .expe
+    {
+        position: relative;
+        left: 2em;
+    }
+}
+
+.section2
+{
+    gap: 2em;
+
+}
+
+.child
+{
+    position: absolute;
+    padding: 5rem;
+    display: grid;
+    grid-template-rows: 20em 20em;
+
+    .card-jobs1
+    {
+/*         position: relative;
+        top: -20em; */
+
+        .sous-text
+        {
+            position: relative;
+            line-height: 34px;
+        }
+    }
+
+    .btn-php-angular
+    {
+        position: relative;
+        word-spacing: 1em;
+    
+    }
+}
+
+.child2
+{
+    @extend .child;
+    position: relative;  
+    justify-content: center;
+  
+}
+
+.child3
+{
+    @extend .child;
+    position: relative;
+    top: -66.5em;
+    justify-content: flex-end;
+   
+}
+
+
+
+.deplacement-text,.sous-text,.grafikart
+{
+    position: relative;
+    left: 17px;
+}
+
+.child4
+{
+    position: relative;
+    top: -48em;
+    background-color: rgba(53, 125, 237, 0.1);
+    padding: 0;
+    height: 29em;
+
+    .top-child4
+    {
+        position: relative;
+        top: -6em;
+    }
+
+    .title-child4
+    {
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        font-weight: 100;     
+        top: 7em;
+        font-size: var(--h1);
+    }
+
+    .depla-title-child4
+    {
+        position: relative;
+        top: var(--top-10px);
+    }
+
+    .text-child4
+    {
+        position: relative;
+        font-size: 20px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        top: 13em;
+    }
+
+    .btn-v-tuto
+    {
+        position: relative;
+        border-radius: 2px;
+        right: 0.5em;
+        cursor: pointer;
+    }
+
+    // .input-child4
+    // {
+    //     position: relative;
+    //     float: right;
+    //     left: 30em;
+    // }
+}
+
+
+.top-btn-child4
+{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -10em;
+    align-items: center;
+    left: -8em;
+}
+
+
+.child5
+{
+    padding: 5em;
+    position: relative;
+    top: -8em;
+    display: flex;
+    justify-content: space-around;
+    gap: 3em;
+
+}
+
+
+
+
+

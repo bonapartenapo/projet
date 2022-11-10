@@ -1,0 +1,86 @@
+.top-bar
+{
+
+    padding: 2em 5.5em;
+}
+
+/* deuxieme partie  */
+.delvelpp-web
+{
+    position: relative;
+    top: -2em;
+}
+
+.mini-developpment-web
+{
+    position: relative;
+    top: -3.5em;
+    padding-left: 2em;
+    line-height: 1em;
+
+    
+    .web
+    {
+        line-height: 35px;
+    }
+
+}
+
+.top-element
+{
+    position: relative;
+    top: -2em;
+}
+
+
+
+/* partir select */
+.select
+{
+    display: flex;
+    // justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+    top: 3em;
+    padding-left: 15em;
+    
+    gap: 3em;
+}
+
+/* fin select */
+
+/* troisieme partir */
+.part3
+{
+    position: relative;
+    top: -25em;
+    left: 14.8em;
+
+    .card-developpeur
+    {
+        
+        display: flex;
+        justify-content: center;
+    }
+
+    .text-card
+    {
+        position: relative;
+        top: -1em;
+        padding-left: 17px;
+        line-height: 20px;
+        font-size: 16px;
+    }   
+
+    .btn-a
+    {
+        padding-left: 17px;
+    }
+
+    
+}
+  
+
+
+
+

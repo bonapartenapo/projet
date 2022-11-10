@@ -1,0 +1,277 @@
+.text-input
+{
+        /* normal */
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 40px;
+    
+    /* identical to box height */
+     
+        align-items: center;
+        letter-spacing: -0.02em;
+    /* text-color */
+        color: #1B1E3D;
+}
+
+.input-jobs
+{
+    width: 20em;
+    height: 40px;
+}
+.input-jobs2
+{
+    width: 8em;
+    height: 40px;
+}
+
+
+
+// partir profile
+
+.form-profile
+{
+    position: relative;
+    top: -43.5em;
+    padding-left: 12em;
+    display: flex;
+    justify-content: center;
+   
+    .zone-text-profile
+    {
+        height: 37px;
+        width:  300px;
+        background: var(--gray);
+        /* Gray 5 */
+        border: 1px solidvar(--gray);
+        border-radius: 8px;
+    }
+
+    .password-profile
+    {
+            display: flex;
+            gap: 2em;
+    
+         h4
+        {
+            position: relative;
+            top: 6px;
+        }
+
+        .zone-password-profile
+        {
+            width:  150px;
+            background: var(--gray);
+            /* Gray 5 */
+            border: 1px solidvar(--gray);
+            border-radius: 8px;
+            height: 35px;
+        }
+
+    } 
+
+    .pseudo-profile
+    {
+        display: flex;
+        gap: 3em;
+    }
+
+    .user-profile
+    {
+        position: relative;
+        top: 1.5em;
+        color: #241744;
+    }
+
+    .nom-profile
+    {
+        position: relative;
+        top: 2.5em;
+    }
+
+    .prenom-profile
+    {
+        display: flex;
+        justify-content: center;
+        padding-left: 2.5em;
+    }
+
+}
+
+.top-textarea-profile
+{
+    padding-top: 4em;
+
+
+    .textarea-profile
+    {
+        background: var(--gray);
+        /* Gray 5 */
+        border: 1px solidvar(--gray);
+        border-radius: 8px;
+
+    }
+    
+}
+
+.tel-profil
+{
+    padding-top: 3em;
+
+    .nber-profil
+    {
+        display: flex;
+        gap: 3em;
+    }
+}
+
+
+
+// formulaire login, register, mot de passe oublier
+
+
+/* dbut register*/
+
+.img-tph-register
+{
+    display: flex;
+    justify-content: center;
+    padding: 3em;
+
+}
+
+.img-tph-register
+{
+    display: flex;
+    justify-content: center;
+    padding: 3em;
+
+}
+
+.section-register
+{
+    position: relative;
+    left:34%;
+    height: 400px;
+    width: 282px;
+    background: var(--bg-dark-primary);
+    color: var(--white);
+    padding: 4em;
+    
+    .section-form
+    {
+        position: relative;
+        top: var(--top-2em);
+    }
+   
+    .form-register
+    {
+        display: flex;
+        gap: 1em;
+        position: absolute;
+        flex-direction: column;
+
+        .icon-form
+        {
+            display: flex;
+            gap: 1em;
+            flex-direction: column;
+
+            .icone-input
+            {
+                position: absolute;
+                padding-left: var(--padding-left-5px);
+                top: 1rem;
+        
+            }
+        
+        
+            .icone-input2
+            {
+                @extend .icone-input;
+                top: 6rem;
+            }
+        
+        
+            .icone-input3
+            {
+                @extend .icone-input;
+                top: 11rem;
+            }
+
+            .zone-text-form
+            {
+                padding: 20px 120px;
+                background: var(--bg-dark-primary);
+                color: var(--white);
+                padding-left: 2.5em;
+                border-radius: 2px;
+            }
+        }
+
+        .check
+        {
+            display: flex;
+            gap: 2em;
+        }
+        
+    }
+
+    button a
+    {
+        color: var(--white);
+    }
+
+}
+
+/* fin register */
+
+/* debut login */
+
+.img-login
+{
+    position: relative;
+    top: 10em;
+    left: 5em;
+    display: flex;
+   
+  
+}
+.img-tph-login
+{
+
+    width: 25em;
+    height: 25em;
+}
+
+.section-login
+{
+   @extend .section-register;
+   position: relative;
+   height: 370px;
+   top: -18em;
+   left: 58%;
+//    padding-left: 22em;
+}
+
+/* fin login */
+
+/* debut mdpo*/
+
+.inscrire-mdpo
+{
+    display: flex;
+    justify-content: center;
+    color: var(--white);
+    font-size: var(--h2);
+    color: var(--second-primary-color);
+}
+
+.icone-input-mdpo
+{
+
+        @extend .icone-input;
+        top: 11rem;
+}
+/* fin mdpo */
+
+

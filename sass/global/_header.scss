@@ -1,0 +1,56 @@
+
+.header-dashed
+{
+   padding: var(--padding);
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   height: 100px;
+
+   .link-header
+{
+   display: flex;
+   align-items: center;
+   padding-left: 2rem;
+      margin-left: -80px;
+      // margin-right: -20px;
+   width: 800px;
+}
+
+}
+
+// .btn-secondary
+// {
+//    // position: relative;
+//    // top: 4em;
+//    // left: -7em;
+//    width: 150px;
+//    height: 45px;
+  
+// }  
+
+
+.text-link-head
+{
+   display: flex;
+
+   gap: 2rem;
+
+   a
+   {
+       text-decoration: none;
+       color: black;
+       
+   }
+   .home,.jobs,.tutoriels,.coaching,.contact
+   {
+   font-size: 24px;
+   }
+
+   .color-tutoriels
+   {
+   color: var(--blue);
+   }
+}
+
+

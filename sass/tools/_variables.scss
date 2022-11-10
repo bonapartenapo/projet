@@ -1,0 +1,44 @@
+// couleur
+:root
+{
+    --black: #000000;
+    --blue:#357DED;
+    --third-color: #233FD1;
+    --primary-color: rgba(53, 125, 237, 1);
+    --white: #FFFFFF;
+    --bg-btn-primary :#D5E3EC;
+    --gray: #E0E0E0;
+    --bg-dark-primary: #030927;
+    --background-overflow: #000624;
+    --background: rgba(1, 2, 37, 0.95);
+    --second-primary-color: rgba(53, 125, 237, 1);
+}
+
+
+// var style de  base.scss
+:root
+{
+    --padding: 2em;
+    --padding-left-5px: 5px;
+    --h1: 35px;
+    --h2: 30px;
+    --h3: 23px;
+    --h4: 18px;
+
+    --font-size1: 19px;
+    --line-height: 2rem;
+    --size-a: 1.4rem;
+    --size-p: 1.2rem;
+    --btn-text-size: 1.5rem;
+    --btn-size: 13rem;
+
+    --top-2em: -2.8em;
+    --top-10px: -10px;
+}
+
+
+
+[data-theme = 'dark']
+{
+    --text-color: #000000;
+}

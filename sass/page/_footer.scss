@@ -1,0 +1,60 @@
+.footer-profile
+{   
+    color: var(--white);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 400px;
+    background: var(--bg-dark-primary);
+    position: relative;
+    // gap: 8em;
+
+    .icone-profile
+    {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        gap: 0.5em;
+        height: 240px;
+   
+    }
+}
+
+// tiret
+.box-footer-profile
+{
+    box-sizing: border-box ;
+    border: solid var(--bg-btn-primary) 1px;
+    display: flex;
+    position: relative;
+    top: -3em;
+    align-self: space-around;
+
+}
+
+.img-aside-footer
+{
+    display: flex;
+    gap: 0.5em;
+}
+
+.copyright-profile
+{
+    display: flex;
+    align-items: flex-end;
+    height: 215px;
+
+}
+.contact-profile
+{
+    position: relative;
+    top: 9em;
+    line-height: 12px;
+}
+
+.London-profile
+{
+    position: relative;
+    top: 5em;
+}
+

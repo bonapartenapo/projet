@@ -1,0 +1,67 @@
+.btn{
+    border-radius: 5px;
+    padding: 10px 25px;
+}
+
+.btn-radius{
+    @extend .btn;
+    border-radius: 20px;
+}
+
+
+.btn-text{
+    text-align: center;
+    color: #1b1e3d;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.btn-primary
+{
+    background-color: var(--bg-btn-primary);
+    border-color: var(--bg-btn-primary);
+
+}
+
+
+.btn-secondary
+{
+    border-color: var(--blue);
+    background: var(--blue);
+    color: var(--white);
+}
+
+// .btn-size-secondary
+// {
+//     width: 700px;
+// }
+
+.btn-third
+{
+    font-family: 'Poppins';
+    border-radius: 8px;
+    border-color: var(--third-color);
+    background: var(--third-color);
+    color: var(--white);
+    height: 39px;
+    width: 150px;
+}
+
+.btn-bg-white
+{
+    background: var(--white);
+    
+    /* border */
+    border: 3px solid var(--bg-btn-primary);
+    
+    /* shadow */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+}
+
+
+
+
+
+

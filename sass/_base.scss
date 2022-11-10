@@ -1,0 +1,24 @@
+body
+{
+    font-family: 'Saira SemiCondensed';
+    color: var(--text-color);
+    font-style: normal;
+    font-size: 18px;
+    margin: 0;
+    letter-spacing: -0.02em;
+
+    .padding
+    {
+        padding: var(--padding);
+    }
+
+
+}
+
+
+.bd-profile
+{
+    padding: var(--padding);
+}
+
+

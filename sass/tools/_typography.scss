@@ -1,0 +1,26 @@
+a
+{
+    text-decoration: none;
+    font-weight: 300;
+
+}
+
+    h2
+    {
+
+        font-weight: 400;
+        display: flex;
+        font-size: var(--h2);
+    }
+
+    h3{
+        @extend a;
+        font-weight: 600;
+        font-size: var(--h3);
+    }
+    
+    h4
+    {
+        @extend a;
+        font-size: var(--h4);
+    }

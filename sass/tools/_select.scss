@@ -1,0 +1,38 @@
+.text-select
+{
+    /* normal */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 41px;
+
+/* identical to box height */
+ 
+    align-items: center;
+    letter-spacing: -0.02em;
+/* text-color */
+    color: #1B1E3D;
+
+
+}
+
+.select-primary
+{
+    box-shadow: 1px 1px 2px #999;
+    background: var(--white);
+    height: 40px;
+    border: 1px solid var(--bg-btn-primary); 
+}
+
+.select-secondary
+{
+    // box-shadow: 1px 1px 2px #999;
+    background: var(--gray);
+    border-radius: 10px;
+    height:45px;
+    width: 105px;
+    border: 1px solid var(--gray); 
+    font-size: 16px;
+
+}
