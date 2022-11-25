@@ -18,7 +18,15 @@
   --h1: 35px;
   --h2: 30px;
   --h3: 23px;
-  --h4: 18px;
+  --h4: 20px;
+  --gap-L1: 1em;
+  --gap-L2: 2em;
+  --gap-L3: 3em;
+  --gap-L4: 4em;
+  --gap-L5: 5em;
+  --gap-L6: 6em;
+  --gap-L7: 7em;
+  --gap-L8: 8em;
   --font-size1: 19px;
   --line-height: 2rem;
   --size-a: 1.4rem;
@@ -27,6 +35,10 @@
   --btn-size: 13rem;
   --top-2em: -2.8em;
   --top-10px: -10px;
+}
+
+:root {
+  --primary_text_color: #357DED;
 }
 
 [data-theme=dark] {
@@ -49,53 +61,6 @@ body .padding {
   padding: var(--padding);
 }
 
-.btn, .btn-radius {
-  border-radius: 5px;
-  padding: 10px 25px;
-}
-
-.btn-radius {
-  border-radius: 20px;
-}
-
-.btn-text {
-  text-align: center;
-  color: #1b1e3d;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 18px;
-}
-
-.btn-primary {
-  background-color: var(--bg-btn-primary);
-  border-color: var(--bg-btn-primary);
-}
-
-.btn-secondary {
-  border-color: var(--blue);
-  background: var(--blue);
-  color: var(--white);
-}
-
-.btn-third {
-  font-family: "Poppins";
-  border-radius: 8px;
-  border-color: var(--third-color);
-  background: var(--third-color);
-  color: var(--white);
-  height: 39px;
-  width: 150px;
-}
-
-.btn-bg-white {
-  background: var(--white);
-  /* border */
-  border: 3px solid var(--bg-btn-primary);
-  /* shadow */
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 3px;
-}
-
 a, h4, h3 {
   text-decoration: none;
   font-weight: 300;
@@ -114,6 +79,34 @@ h3 {
 
 h4 {
   font-size: var(--h4);
+}
+
+h1 {
+  font-size: var(--h1);
+}
+
+h2 {
+  font-size: var(--h2);
+}
+
+h3 {
+  font-size: var(--h3);
+}
+
+h4 {
+  font-size: var(--h4);
+}
+
+h5 {
+  font-size: var(--h5);
+}
+
+h6 {
+  font-size: var(--h6);
+}
+
+.primary_text_color {
+  color: var(--blue);
 }
 
 .img-cercle {
@@ -210,6 +203,53 @@ h4 {
 }
 .text-link-head .color-tutoriels {
   color: var(--blue);
+}
+
+.btn, .btn-radius {
+  border-radius: 5px;
+  padding: 10px 25px;
+}
+
+.btn-radius {
+  border-radius: 20px;
+}
+
+.btn-text {
+  text-align: center;
+  color: #1b1e3d;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.btn-primary {
+  background-color: var(--bg-btn-primary);
+  border-color: var(--bg-btn-primary);
+}
+
+.btn-secondary {
+  border-color: var(--blue);
+  background: var(--blue);
+  color: var(--white);
+}
+
+.btn-third {
+  font-family: "Poppins";
+  border-radius: 8px;
+  border-color: var(--third-color);
+  background: var(--third-color);
+  color: var(--white);
+  height: 39px;
+  width: 150px;
+}
+
+.btn-bg-white {
+  background: var(--white);
+  /* border */
+  border: 3px solid var(--bg-btn-primary);
+  /* shadow */
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
 }
 
 .card {
@@ -438,58 +478,38 @@ h4 {
 }
 
 /* fin mdpo */
-/* grand titre et sous titre */
-.police-titles, .police-sous-titles, .jobs1, .developeur, .jobs2, .jobs3 {
+.padding_index {
+  padding: var(--padding);
   position: relative;
-  font-family: "Saira SemiCondensed";
-  font-style: normal;
-  font-weight: 300;
-  align-items: center;
-  color: black;
-  letter-spacing: -0.02em;
+  top: -6em;
+}
+
+/* grand titre et sous titre */
+.police-titles {
+  line-height: 59px;
 }
 
 .taille-sous-titles {
-  font-size: 20px;
+  font-size: var(--h4);
   line-height: 29px;
 }
 
 /* fin grand titre et sous titre */
 /* premiere partir */
-.part1 {
-  padding-top: 6em;
-}
-
-.depla {
-  position: relative;
-  top: 2em;
-}
-
-.btn-integrer-mtn {
-  position: absolute;
-  border-radius: 5px;
-  border-color: #357DED;
-  background: #357DED;
-  width: 250px;
-  height: 45px;
-  top: 6em;
-}
-
-.img-body {
+.img-div-index {
   position: relative;
   top: -18em;
-  left: 29em;
-  width: 650px;
-  height: 550px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 /* fin de la premier partir */
 /* deuxieme partie */
-.tof-jobs {
+.tof-job-index {
   position: relative;
-  top: -12em;
-  left: 11em;
-  width: 50em;
+  top: -14em;
+  display: flex;
+  justify-content: center;
 }
 
 .jobs1, .developeur, .jsobs, .jobs3 {
@@ -689,9 +709,10 @@ h4 {
   top: -4.5em;
   line-height: 34px;
 }
-.child1-job-detail .btn-php-angular {
-  position: relative;
-  word-spacing: 1em;
+
+.btn-php-angular, .btn-technologi-job-detail {
+  display: flex;
+  gap: var(--gap-L1);
 }
 
 .text {
@@ -742,9 +763,9 @@ h4 {
   position: relative;
   line-height: 34px;
 }
-.child .btn-php-angular, .child3 .btn-php-angular, .child2 .btn-php-angular {
-  position: relative;
-  word-spacing: 1em;
+.child .btn-php-angular, .child3 .btn-php-angular, .child2 .btn-php-angular, .child .btn-technologi-job-detail, .child3 .btn-technologi-job-detail, .child2 .btn-technologi-job-detail {
+  display: flex;
+  gap: var(--gap-L1);
 }
 
 .child2 {

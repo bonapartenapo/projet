@@ -3,17 +3,19 @@
 // variables
 @import "./tools/variables.scss";
 @import "./base.scss";
-@import "./tools/btn.scss";
 
 @import "tools/typography.scss";
 
 
 // global
+@import "tools/police_text.scss";
+@import "tools/text_color.scss";
 @import "tools/img.scss";
 @import "global/header.scss";
 
 // tools
 // 
+@import "./tools/btn.scss";
 @import "tools/card.scss";
 @import "tools/select.scss";
 @import "tools/formulaire.scss";

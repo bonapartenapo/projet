@@ -1,70 +1,51 @@
  $blue:#357DED;
  
- /* grand titre et sous titre */
- .police-titles,.police-sous-titles,.jobs1,.developeur,.jobs2,.jobs3
- {
+ .padding_index
+{
+    padding: var(--padding);
     position: relative;
-    font-family: 'Saira SemiCondensed';
-    font-style: normal;
-    font-weight: 300;
-    align-items: center;
-    color: black;
-    letter-spacing: -0.02em;
+    top: -6em;
+}
+
+ /* grand titre et sous titre */
+//  
+
+ .police-titles
+ {
+    line-height: 59px 
  }
 
  .taille-sous-titles
  {
-    font-size: 20px;
+    font-size: var(--h4);
     line-height: 29px 
  }
+
 
  /* fin grand titre et sous titre */
 
 
 /* premiere partir */
-.part1
-{
-    padding-top: 6em;
-}
 
-.depla
+.img-div-index
 {
-    position: relative;
-    top: 2em;
-    
-}
-
-.btn-integrer-mtn
-{
-   position: absolute;
-   border-radius: 5px;
-   border-color:  $blue;
-   background:  $blue;
-   width: 250px;
-   height: 45px;   
-   top: 6em;
-}
-
- .img-body
- {
     position: relative;
     top: -18em;
-    left: 29em;
-    width: 650px;
-    height: 550px;
- }
+    display: flex;
+    justify-content: flex-end;
+}
 
  /* fin de la premier partir */
 
 /* deuxieme partie */
 
- .tof-jobs
- {
+.tof-job-index
+{
     position:  relative;
-    top: -12em;
-    left: 11em;
-    width: 50em;
- }
+    top: -14em;
+    display: flex;
+    justify-content: center;
+}
 
  .jobs1,.developeur,.jsobs,.jobs3
  {
@@ -125,4 +106,7 @@
    color: var(--blue);
    
  }
+
+
+
 

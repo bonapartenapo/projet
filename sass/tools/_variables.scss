@@ -23,7 +23,18 @@
     --h1: 35px;
     --h2: 30px;
     --h3: 23px;
-    --h4: 18px;
+    --h4: 20px;
+
+    
+    --gap-L1: 1em;
+    --gap-L2: 2em;
+    --gap-L3: 3em;
+    --gap-L4: 4em;
+    --gap-L5: 5em;
+    --gap-L6: 6em;
+    --gap-L7: 7em;
+    --gap-L8: 8em;
+
 
     --font-size1: 19px;
     --line-height: 2rem;
@@ -36,6 +47,13 @@
     --top-10px: -10px;
 }
 
+
+// var texte
+
+:root
+{
+    --primary_text_color: #357DED;
+}
 
 
 [data-theme = 'dark']

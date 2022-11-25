@@ -141,11 +141,17 @@
         }
     }
 
-    .btn-php-angular
-    {
-        position: relative;
-        word-spacing: 1em;
-    
-    }
+
 }
 
+.btn-php-angular
+{
+    display: flex;
+    gap: var(--gap-L1);
+
+}
+
+.btn-technologi-job-detail
+{
+    @extend .btn-php-angular;
+}

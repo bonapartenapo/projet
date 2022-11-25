@@ -6,33 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../sass/main.css">
-    
+    <base href="file:///c:/Users/Meliodas/Desktop/site-tph/mon%20projet/tph-code/" />
+
 </head>
 <body>
     <!-- partir entête -->
-    <header class="header">
+<header class="header">
         <div class="header-dashed">
             
-            <img class = "img-tph" src="../icone-logo/header/tph.jpg">
+            <img class = "img-tph" src="img/icone-logo/header/tph.jpg">
             <button class="btn btn-text btn-secondary">Explorer</button>
 
         <div class="link-header">
-        <div class="text-link-head">
-            <a href="index.html" class ="home">Home</a>
-            <a href="jobs.html" class ="jobs">jobs</a>
-            <a href="tutoriel.html" class ="color-tutoriels tutoriels">tutoriel</a>
+        <nav class="text-link-head">
+            <a href="ipage/index.html" class ="home">Home</a>
+            <a href="page/jobs.html" class ="jobs">jobs</a>
+            <a href="ipage/tutoriel.html" class ="color-tutoriels tutoriels">tutoriel</a>
             <a href="#" class ="coaching">coaching</a>
-            <a href="profil.html" class ="contact">contact</a>
+            <a href="page/profil.html" class ="contact">contact</a>
        
+        </nav>
         </div>
+            <img class="img-discord" src="img/icone-logo/header/discord.png">
         </div>
-            <img class="img-discord" src="../icone-logo/header/discord.png">
-        </div>
-    </header>
+</header>
 
 <section class="section-jobs-detail">
     <div>
-            <img src="../img/child.png"class="img-child">
+            <img src="img/child.png"class="img-child">
         <div class="conten-img">
             <h2 class="title-niv1">Développeur full stack à Gohze</h2>
             <p class="text-img">
@@ -57,32 +58,44 @@
 
         <div class="btn-part2">
             <h3 class="techno-h3">Technologie</h3><br>
-            <button class="btn-primary btn-text btn-angular ">angular</button>
+
+            <div class="btn-technologi-job-detail">
+                <div>
+                    <button class="btn-primary btn-text btn-angular ">angular</button>
+                </div>
+                <div>
+                    <button class="btn-primary btn-php btn-text">php</button>
+
+                </div>
+                <div>
+                    <button class="btn-primary btn-php btn-text">php</button>
+                </div>               
+            </div>
+
         
-        <!-- <?php $i;
-            for($i = 0; $i < 3; $i++)
-            {
-                echo '<button class="btn-primary btn-php">php</button>  ';
+                <!-- <?php $i;
+                    for($i = 0; $i < 3; $i++)
+                    {
+                        echo '<button class="btn-primary btn-php">php</button>  ';
 
-            }
-        ?><br><br>
+                    }
+                ?><br><br>
        
-        <?php $i;
-            for($i = 0; $i < 3; $i++)
-            {
-                echo '<h3 class="title-niv3">Job description</h3>
-                <P class="text-description">
-                We are looking for a skilled Backend PHP Developer (m/f/d) to join one of our Tech Teams onsite in Hamburg or <br>
-                remote within the EU. Our Tech Department is the heart of ABOUT YOU, driven by the passion to develop the best<br>
-                infrastructure & applications. You will work on high-scalable products on a cloud-based infrastructure and collaborate<br>
-                with developers who constantly challenge themselves to raise the bar of what is “state of the art” technology.<br>
-                </p><br>';
+                <?php $i;
+                    for($i = 0; $i < 3; $i++)
+                    {
+                        echo '<h3 class="title-niv3">Job description</h3>
+                        <P class="text-description">
+                        We are looking for a skilled Backend PHP Developer (m/f/d) to join one of our Tech Teams onsite in Hamburg or <br>
+                        remote within the EU. Our Tech Department is the heart of ABOUT YOU, driven by the passion to develop the best<br>
+                        infrastructure & applications. You will work on high-scalable products on a cloud-based infrastructure and collaborate<br>
+                        with developers who constantly challenge themselves to raise the bar of what is “state of the art” technology.<br>
+                        </p><br>';
 
-            }
-        ?> -->
+                    }
+                ?> -->
 
-            <button class="btn-primary btn-php btn-text">php</button>
-            <button class="btn-primary btn-php btn-text">php</button>
+
         </div>
         
 
@@ -117,38 +130,50 @@
             <h3 class="topbar-aimer">vous pouriez aimer</h3>
 
             <div class="card-job-detail card  depla-card">
-                <img src="../../icone-logo/flower.png" class="img-flower">
+                <img src="icone-logo/flower.png" class="img-flower">
                 <h3 class=" devlop-full-stack">Développeur full stack à Gohze</h3>
                 <div class="sous-text-job-detail">
                     Cameroun-Yaounde-Bastos <br>
                     <div class="btn-php-angular">
-                    <button class=" btn-text btn-primary">Angular</button>
-                    <button class=" btn-text btn-primary ">php</button><br>
+                        <div>
+                            <button class=" btn-text btn-primary">Angular</button>
+                        </div>
+                        <div>
+                            <button class=" btn-text btn-primary ">php</button><br>
+                        </div>
                     </div>
                     Il y'a 5 jours. Remote <br>
                 </div>
             </div>
 
             <div class="card-job-detail card  depla-card">
-                <img src="../icone-logo/flower.png" class="img-flower">
+                <img src="icone-logo/flower.png" class="img-flower">
                 <h3 class=" devlop-full-stack">Développeur full stack à Gohze</h3>
                 <div class="sous-text-job-detail">
                     Cameroun-Yaounde-Bastos <br>
                     <div class="btn-php-angular">
-                    <button class=" btn-text btn-primary">Angular</button>
-                    <button class=" btn-text btn-primary ">php</button><br>
+                        <div>
+                            <button class=" btn-text btn-primary">Angular</button>
+                        </div>
+                        <div>
+                            <button class=" btn-text btn-primary ">php</button><br>
+                        </div>
                     </div>
                     Il y'a 5 jours. Remote <br>
                 </div>
             </div>
             <div class="card-job-detail card  depla-card">
-                <img src="../icone-logo/flower.png" class="img-flower">
+                <img src="icone-logo/flower.png" class="img-flower">
                 <h3 class=" devlop-full-stack">Développeur full stack à Gohze</h3>
                 <div class="sous-text-job-detail">
                     Cameroun-Yaounde-Bastos <br>
                     <div class="btn-php-angular">
-                    <button class=" btn-text btn-primary">Angular</button>
-                    <button class=" btn-text btn-primary ">php</button><br>
+                        <div>
+                            <button class=" btn-text btn-primary">Angular</button>
+                        </div>
+                        <div>
+                            <button class=" btn-text btn-primary ">php</button><br>
+                        </div>
                     </div>
                     Il y'a 5 jours. Remote <br>
                 </div>

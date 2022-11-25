@@ -72,8 +72,8 @@
 
     .btn-php-angular
     {
-        position: relative;
-        word-spacing: 1em;
+        display: flex;
+        gap: var(--gap-L1);
     
     }
 }
